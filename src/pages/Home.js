@@ -1,11 +1,20 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
+import Nav from '../components/Nav';
+import Main from '../components/Main';
+
 
 export default class Home extends Component {
+  state = {
+
+  };
   render() {
     return (
       <div>
-        <h1>Home</h1>
+        <Nav />
+        <Main />
       </div>
-    )
+    );
   }
 }
+
